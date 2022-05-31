@@ -1,0 +1,18 @@
+<form method="POST" action="?class=Form&method=salvar">
+  <input type="hidden" name="id" value="{id}" />
+  <div>
+    <label for="filme">Filme: </label>
+    <input type="text" name="filme" id="filme" required value="{filme}" />
+  </div>
+  <div>
+    <label for="sinopse">Sinopse: </label>
+    <textarea name="sinopse" id="sinopse" required>{sinopse}</textarea>
+  </div>
+  <div>
+    <label for="elenco"> Elenco: </label>
+    <input type="text" name="elenco" id="elenco" required value="{elenco}" />
+  </div>
+  <div>
+    <button type="submit">Salvar</button>
+  </div>
+</form>
